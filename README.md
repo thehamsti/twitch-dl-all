@@ -27,9 +27,10 @@ pip install git+https://github.com/hamsti/twitch-dl-all.git
 Install the packages:
 ```bash
 pip install twitch-dl # If you haven't already installed twitch-dl
-pip install twitch-dl-all
+pip install git+https://github.com/hamsti/twitch-dl-all.git
 ```
 
+Run the script:
 ```bash
 twitch-dl-all CHANNEL_NAME
 ```
