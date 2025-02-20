@@ -18,7 +18,7 @@ pip install git+https://github.com/thehamsti/twitch-dl-all.git
 
 ### Prerequisites
 
-- Python 3.6 or higher
+- Python 3.6 or higher (I recommend using [uv](https://docs.astral.sh/uv/) to manage your Python installations)
 - [twitch-dl](https://twitch-dl.bezdomni.net/installation.html)
 - [ffmpeg](https://ffmpeg.org/download.html)
 
@@ -28,6 +28,17 @@ Install the packages:
 ```bash
 pip install twitch-dl # If you haven't already installed twitch-dl
 pip install git+https://github.com/thehamsti/twitch-dl-all.git
+
+# Or with uv
+uv pip install twitch-dl --system
+uv pip install git+https://github.com/thehamsti/twitch-dl-all.git --system
+```
+
+**Note:** You'll need to re-source your shell after installing the packages.
+```bash
+source ~/.zshrc
+# or
+source ~/.bashrc
 ```
 
 Run the script:
