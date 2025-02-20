@@ -13,7 +13,7 @@ All credit for the core downloading functionality goes to Ivan Habunek and the t
 You can install the package directly from GitHub:
 
 ```bash
-pip install git+https://github.com/hamsti/twitch-dl-all.git
+pip install git+https://github.com/thehamsti/twitch-dl-all.git
 ```
 
 ### Prerequisites
@@ -27,7 +27,7 @@ pip install git+https://github.com/hamsti/twitch-dl-all.git
 Install the packages:
 ```bash
 pip install twitch-dl # If you haven't already installed twitch-dl
-pip install git+https://github.com/hamsti/twitch-dl-all.git
+pip install git+https://github.com/thehamsti/twitch-dl-all.git
 ```
 
 Run the script:
@@ -41,7 +41,7 @@ You can also run the script directly from the cloned repository:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/hamsti/twitch-dl-all.git
+git clone https://github.com/thehamsti/twitch-dl-all.git
 cd twitch-dl-all
 ```
 
