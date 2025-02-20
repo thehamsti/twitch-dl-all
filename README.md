@@ -2,6 +2,8 @@
 
 A Python package to download all highlights and uploads from a specified Twitch channel using twitch-dl. This tool was created in response to Twitch's announcement about implementing a 100-hour storage limit for highlights and uploads starting April 19, 2025, to help creators preserve their content before the limit takes effect.
 
+Twitch will automatically delete highlights and uploads after April so no real need to delete them manually.
+
 ## Attribution
 
 This tool is built on top of [twitch-dl](https://github.com/ihabunek/twitch-dl) by Ivan Habunek (ivan@habunek.com). The original twitch-dl is a fantastic CLI tool for downloading videos from Twitch.tv. This is simply a wrapper that adds automation for batch downloading all highlights and uploads from a channel.
